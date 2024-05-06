@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="flex justify-between w-screen items-center p-5">
+      <nav className="flex justify-between max-w-screen items-center p-5">
         <div className="flex gap-3 items-center">
           <FaCarSide className="text-[#FA4226]" size={70} />
           <div className="flex flex-col">
