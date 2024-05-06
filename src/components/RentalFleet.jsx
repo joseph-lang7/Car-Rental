@@ -187,6 +187,9 @@ const RentalFleet = () => {
                   <div>{selectedCar.fuel}</div>
                 </div>
               </div>
+              <button className="w-full mt-3 text-sm text-white hover:shadow-lg hover:bg-[#de462f] transition-all duration-300 font-bold p-3 bg-[#FA4226] rounded-sm">
+                RESERVE NOW
+              </button>
             </div>
           </div>
         </div>
