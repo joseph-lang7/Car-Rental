@@ -35,7 +35,7 @@ const Navbar = () => {
         <button className="hover:text-[#FA4226] transition-colors duration-300">
           Sign In
         </button>
-        <button className="bg-[#FA4226] text-white px-8 py-3 rounded-sm hover:shadow-lg hover:bg-[#de462f] transition-all duration-300">
+        <button className="bg-[#FA4226] text-white px-8 py-3 rounded-sm hover:shadow-lg hover:bg-[#de462f] transition-all duration-300 font-bold">
           Register
         </button>
       </div>
