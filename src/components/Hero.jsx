@@ -20,7 +20,7 @@ const Hero = () => {
               Book Ride
               <FaRegCheckCircle className="text-white" size={20} />
             </button>
-            <button className="flex gap-2 items-center bg-black text-white px-5 rounded-sm hover:shadow-lg hover:bg-white hover:text-black hover:border-2 hover:border-black  font-bold">
+            <button className="flex gap-2 items-center bg-black text-white px-5 rounded-sm hover:shadow-lg hover:bg-white hover:text-black transition-colors border-2 border-black duration-300  font-bold ">
               Learn More
               <MdKeyboardArrowRight size={30} />
             </button>
