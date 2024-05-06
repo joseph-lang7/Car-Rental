@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Hero Image */}
-        <div className="w-6/12 hidden xl:flex max-h-full max-w-[1057px]">
+        <div className=" hidden xl:flex max-h-full w-[900px]">
           <img
             className="rounded-sm object-cover"
             src={heroImage}
