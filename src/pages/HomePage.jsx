@@ -2,6 +2,7 @@ import BookCar from "../components/BookCar";
 import Hero from "../components/Hero";
 import RentalFleet from "../components/RentalFleet";
 import RentingProcess from "../components/RentingProcess";
+import SaveBigBanner from "../components/SaveBigBanner";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <BookCar />
       <RentingProcess />
       <RentalFleet />
+      <SaveBigBanner />
     </>
   );
 };
