@@ -58,7 +58,7 @@ const BookCar = () => {
     <div className="flex flex-col  justify-center items-center w-full h-auto ">
       <form
         onSubmit={handleSubmit}
-        className=" bg-slate-100 w-full flex flex-col justify-between md:max-w-[1500px] p-10"
+        className=" bg-slate-100 w-full flex flex-col justify-between p-10 lg:max-w-[1500px] "
       >
         <h2 className="font-bold text-3xl">Book a car</h2>
         {errorMessage && (
@@ -71,7 +71,7 @@ const BookCar = () => {
             Success!
           </div>
         )}
-        <div className="mt-5 flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div className="mt-5 flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
           <div className="flex flex-col gap-3 w-full">
             <div className="flex gap-2 items-center">
               <PiCarSimpleFill />

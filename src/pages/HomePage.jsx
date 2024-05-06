@@ -1,5 +1,6 @@
 import BookCar from "../components/BookCar";
 import Hero from "../components/Hero";
+import RentalFleet from "../components/RentalFleet";
 import RentingProcess from "../components/RentingProcess";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <BookCar />
       <RentingProcess />
+      <RentalFleet />
     </>
   );
 };
