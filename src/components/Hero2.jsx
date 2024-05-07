@@ -2,7 +2,7 @@
 const Hero2 = ({ title }) => {
   return (
     <div
-      className="w-screen h-[500px] object-cover"
+      className="w-screen h-[550px] object-cover"
       style={{
         backgroundImage: `url('/hero2-img.png')`,
         backgroundSize: "cover",
