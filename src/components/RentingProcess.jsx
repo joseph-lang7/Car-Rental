@@ -6,10 +6,10 @@ const RentingProcess = () => {
   return (
     <div className="flex flex-col  justify-center items-center w-full h-auto ">
       <div className=" w-full flex flex-col justify-between md:max-w-[1500px]">
-        <h3 className="text-center text-xl font-bold mb-2">
+        <h3 className="text-center text-2xl font-bold mb-2">
           Plan your trip now
         </h3>
-        <h2 className="text-center text-3xl font-bold">
+        <h2 className="text-center text-4xl font-bold">
           Quick and easy car rental
         </h2>
         <div className="mt-8 grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
