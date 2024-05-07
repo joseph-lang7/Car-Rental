@@ -4,7 +4,7 @@ import { FaCar } from "react-icons/fa6";
 
 const RentingProcess = () => {
   return (
-    <div className="flex flex-col  justify-center items-center w-full h-auto mt-16">
+    <div className="flex flex-col  justify-center items-center w-full h-auto ">
       <div className=" w-full flex flex-col justify-between md:max-w-[1500px]">
         <h3 className="text-center text-xl font-bold mb-2">
           Plan your trip now

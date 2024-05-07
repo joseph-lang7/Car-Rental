@@ -1,6 +1,6 @@
 const SaveBigBanner = () => {
   return (
-    <div className="max-w-screen h-auto p-10 bg-[#2D2D2D] mt-16 flex flex-col gap-2">
+    <div className="max-w-screen h-auto p-10 bg-[#2D2D2D] flex flex-col gap-2">
       <h2 className="text-white text-4xl md:text-5xl text-center font-bold">
         Save Big with our cheap car rental!
       </h2>

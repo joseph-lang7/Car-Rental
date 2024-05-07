@@ -114,7 +114,7 @@ const RentalFleet = () => {
   return (
     <Container>
       <div className="flex justify-center">
-        <div className="flex flex-col lg:max-w-[1500px] justify-center items-center w-full h-full mt-20">
+        <div className="flex flex-col lg:max-w-[1500px] justify-center items-center w-full h-full">
           <div className=" w-full flex flex-col justify-between ">
             <h4 className="text-center text-2xl font-bold mb-2">
               Vehicle Models
