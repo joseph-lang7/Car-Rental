@@ -148,7 +148,7 @@ const RentalFleet = () => {
             <div className=" flex justify-center lg:max-w-[800px]">
               {selectedCar.image && (
                 <img
-                  className="max-h-[400px] rounded-md w-full lg:w-[650px] object-cover"
+                  className="h-[400px] rounded-md w-full lg:w-[650px] object-cover"
                   src={selectedCar.image}
                   alt={selectedCar.title}
                 />
