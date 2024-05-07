@@ -3,7 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="max-w-screen h-auto p-16 bg-black mt-[150px] text-white flex justify-center">
+    <div className="relative max-w-screen bottom-0 left-0 h-auto p-16 bg-black mt-[150px] text-white flex justify-center">
       <div className="max-w-[1500px]  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Logo */}
         <div className="flex flex-col gap-2">
