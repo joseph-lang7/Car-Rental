@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { FaCarSide } from "react-icons/fa6";
 import Hamburger from "hamburger-react";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
   const [isOpen, setOpen] = useState(false);
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/" },
-    { label: "Vehicle Models", href: "/" },
-    { label: "Testimonials", href: "/" },
-    { label: "Our Team", href: "/" },
-    { label: "Contact", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Vehicle Models", href: "/models" },
+    { label: "Testimonials", href: "/testimonials" },
+    { label: "Our Team", href: "/team" },
+    { label: "Contact", href: "/contact" },
   ];
   return (
     <>
@@ -31,7 +31,7 @@ const Navbar = () => {
               className="hover:text-[#FA4226] cursor-pointer transition-colors duration-300"
               key={navItem.label}
             >
-              {navItem.label}
+              <Link to={navItem.href}>{navItem.label}</Link>
             </li>
           ))}
         </ul>
@@ -60,7 +60,7 @@ const Navbar = () => {
       >
         {navItems.map((navItem) => (
           <li className=" cursor-pointer" key={navItem.label}>
-            {navItem.label}
+            <Link to={navItem.href}>{navItem.label}</Link>
           </li>
         ))}
       </ul>
