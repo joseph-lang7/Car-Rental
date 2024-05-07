@@ -8,7 +8,7 @@ const AboutCompany = () => {
   return (
     <Container>
       <div className="flex justify-center">
-        <div className="max-w-[1500px] gap-12 flex justify-center">
+        <div className="lg:max-w-[1500px] max-w-[800px] gap-12 flex flex-col lg:flex-row lg:justify-center">
           <div className="flex flex-1 justify-center my-10">
             <img
               src={aboutCompany}
@@ -17,7 +17,7 @@ const AboutCompany = () => {
             />
           </div>
           {/* Text container */}
-          <div className="flex-1 flex flex-col gap-7 justify-center ">
+          <div className="flex-1 flex flex-col gap-7 text-center lg:text-start">
             <h3 className="font-bold text-xl">About Company</h3>
             <h2 className="font-bold text-4xl">
               You start the engine and your adventure begins
@@ -29,7 +29,7 @@ const AboutCompany = () => {
               magnam blanditiis accusamus earum commodi non.
             </p>
             {/* Icon container */}
-            <div className="flex flex-col gap-2 lg:flex-row justify-between">
+            <div className="flex flex-row gap-2 md:flex-row justify-between">
               {/* Icon 1 */}
               <div className="flex flex-col gap-1 items-center ">
                 <BsCarFrontFill size={90} className="text-[#FA4226]" />
