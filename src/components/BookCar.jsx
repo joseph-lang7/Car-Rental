@@ -14,7 +14,14 @@ const BookCar = () => {
   });
   const [errorMessage, setErrorMessage] = useState(false);
   const [successMessage, setSuccessMessage] = useState(false);
-  const carTypes = ["Car 1", "Car 2", "Car 3", "Car 4", "Car 5", "Car 6"];
+  const carTypes = [
+    "Subaru WRX",
+    "Bentley Continental",
+    "BMW M4",
+    "Corvette Stingray",
+    "Kia Stinger",
+    "Lamborghini Aventador",
+  ];
   const locations = [
     "Los Angeles",
     "San Francisco",
