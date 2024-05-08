@@ -5,7 +5,7 @@ import Container from "./Container";
 const Hero = () => {
   return (
     <Container>
-      <div className=" flex justify-around h-[800px] w-full items-center mt-20">
+      <div className=" flex justify-around h-[700px] w-full items-center mt-20">
         {/* Hero Text */}
         <div className="max-w-[1500px] flex gap-3 justify-center">
           <div className="flex flex-col gap-5 mt-10 justify-center">

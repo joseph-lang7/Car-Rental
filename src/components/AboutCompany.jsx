@@ -8,8 +8,8 @@ const AboutCompany = () => {
   return (
     <Container>
       <div className="flex justify-center">
-        <div className="lg:max-w-[1500px] max-w-[800px] gap-12 flex flex-col lg:flex-row lg:justify-center">
-          <div className="flex flex-1 justify-center my-10">
+        <div className="lg:max-w-[1500px] max-w-[800px]  gap-12 flex flex-col lg:flex-row lg:justify-center">
+          <div className="flex flex-1 justify-center">
             <img
               src={aboutCompany}
               alt="Photo of sales representative and customer"
