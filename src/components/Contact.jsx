@@ -1,7 +1,7 @@
 import { FaPhoneAlt } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div className="max-w-screen h-auto p-10 bg-[#2D2D2D] flex justify-center my-[120px]">
+    <div className="max-w-screen h-auto p-10 bg-[#2D2D2D] flex justify-center">
       <div className="flex flex-col gap-2 md:flex-row max-w-[1500px]">
         <h2 className="flex-1 text-white text-4xl text-center font-bold">
           Book a car by getting in touch with us

@@ -4,13 +4,13 @@ import Reviews from "../components/Reviews";
 import Contact from "../components/Contact";
 const TestimonialsPage = () => {
   return (
-    <>
+    <div className="flex flex-col gap-[150px]">
       <Hero2 title="Testimonials" />
       <Container>
         <Reviews />
       </Container>
       <Contact />
-    </>
+    </div>
   );
 };
 

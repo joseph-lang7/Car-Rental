@@ -101,7 +101,7 @@ const BookCar = () => {
   return (
     <>
       <Container>
-        <div className="flex flex-col  justify-center items-center w-full h-auto ">
+        <div className="flex flex-col  justify-center items-center w-full ">
           <form
             onSubmit={handleSubmit}
             className=" bg-slate-100 w-full flex flex-col justify-between p-10 lg:max-w-[1500px] px-5 "

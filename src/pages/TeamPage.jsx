@@ -10,7 +10,7 @@ import mechanic from "/staff/mechanic.jpg";
 import photographer from "/staff/photographer.jpg";
 const TeamPage = () => {
   return (
-    <>
+    <div className="flex flex-col gap-[150px]">
       <Hero2 title="Team" />
       <Container>
         <div className="flex justify-center">
@@ -41,7 +41,7 @@ const TeamPage = () => {
         </div>
       </Container>
       <Contact />
-    </>
+    </div>
   );
 };
 

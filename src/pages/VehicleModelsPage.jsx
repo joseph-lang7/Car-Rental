@@ -72,10 +72,10 @@ const VehicleModels = () => {
     },
   ];
   return (
-    <>
+    <div className="flex flex-col gap-[150px]">
       <Hero2 title="Vehicle Models" />
       <Container>
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
             <ModelCard
               image={vehicles[0].image}
@@ -131,7 +131,7 @@ const VehicleModels = () => {
         </div>
       </Container>
       <Contact />
-    </>
+    </div>
   );
 };
 
