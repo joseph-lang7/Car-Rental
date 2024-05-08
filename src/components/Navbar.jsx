@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaCarSide } from "react-icons/fa6";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
@@ -14,6 +14,19 @@ const Navbar = () => {
     { label: "Our Team", href: "/team" },
     { label: "Contact", href: "/contact" },
   ];
+
+  useEffect(() => {
+    if (mobileNav) {
+      setTimeout(() => {
+        document.body.style.overflow = "hidden";
+      }, 670);
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => (document.body.style.overflow = "auto");
+  }, [mobileNav]);
+
   return (
     <>
       <nav className="flex absolute justify-between w-full items-center p-5 bg-transparent">
@@ -45,7 +58,7 @@ const Navbar = () => {
           </button>
         </div>
         {/* Hamburger Menu */}
-        <div className="lg:hidden z-20">
+        <div className="lg:hidden">
           <Hamburger
             toggled={isOpen}
             onToggle={() => [setOpen(!isOpen), setMobileNav(!mobileNav)]}
@@ -55,12 +68,24 @@ const Navbar = () => {
       {/* Mobile Nav */}
       <ul
         className={`${
-          mobileNav ? "left-0 " : "left-[-200%]"
-        } h-screen w-screen transition-all duration-700 absolute bg-slate-100 lg:hidden text-black flex flex-col justify-center items-center gap-10 text-4xl top-0`}
+          mobileNav ? "translate-x-0 scrollbar-hide" : "translate-x-[-200vw]"
+        }  w-full fixed h-screen bg-slate-100 transition-all duration-700 lg:hidden text-black flex flex-col justify-center items-center gap-10 text-4xl `}
       >
+        {/* Hamburger Menu */}
+        <div className="lg:hidden absolute top-7 right-5">
+          <Hamburger
+            toggled={isOpen}
+            onToggle={() => [setOpen(!isOpen), setMobileNav(!mobileNav)]}
+          />
+        </div>
         {navItems.map((navItem) => (
           <li className=" cursor-pointer" key={navItem.label}>
-            <Link to={navItem.href}>{navItem.label}</Link>
+            <Link
+              onClick={() => [setMobileNav(!mobileNav), setOpen(!isOpen)]}
+              to={navItem.href}
+            >
+              {navItem.label}
+            </Link>
           </li>
         ))}
       </ul>
