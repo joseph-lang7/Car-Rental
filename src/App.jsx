@@ -2,7 +2,7 @@ import "./App.css";
 import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import { Routes, Route } from "react-router-dom";
-import VehicleModels from "./pages/VehicleModels";
+import VehicleModels from "./pages/VehicleModelsPage";
 function App() {
   return (
     <div>
