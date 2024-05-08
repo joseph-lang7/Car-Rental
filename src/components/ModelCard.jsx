@@ -14,8 +14,8 @@ const ModelCard = ({
   return (
     <div className="flex flex-col items-center w-[380px] h-[600px] border-2">
       {/* Image */}
-      <div>
-        <img src={image} alt={alt} />
+      <div className="w-full">
+        <img className="h-[250px] w-full object-cover" src={image} alt={alt} />
       </div>
       <div className="flex items-center h-full">
         {/* Text Content */}
