@@ -17,7 +17,7 @@ const AboutCompany = () => {
             />
           </div>
           {/* Text container */}
-          <div className="flex-1 flex flex-col gap-7 text-center lg:text-start">
+          <div className="flex-1 flex flex-col gap-7 text-center lg:text-start lg:justify-center">
             <h3 className="font-bold text-xl">About Company</h3>
             <h2 className="font-bold text-4xl">
               You start the engine and your adventure begins
