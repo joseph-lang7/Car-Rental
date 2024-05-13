@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 const ProfileCard = ({ name, role, photo }) => {
   return (
     <div className="flex flex-col items-center w-[400px] h-[650px] shadow-xl">
@@ -15,5 +16,9 @@ const ProfileCard = ({ name, role, photo }) => {
     </div>
   );
 };
-
+ProfileCard.propTypes = {
+  name: PropTypes.string,
+  role: PropTypes.string,
+  photo: PropTypes.object,
+};
 export default ProfileCard;

@@ -1,4 +1,4 @@
-// import hero2 from "/hero2img.jpg";
+import PropTypes from "prop-types";
 const Hero2 = ({ title }) => {
   return (
     <div
@@ -15,6 +15,10 @@ const Hero2 = ({ title }) => {
       </div>
     </div>
   );
+};
+
+Hero2.propTypes = {
+  title: PropTypes.string,
 };
 
 export default Hero2;

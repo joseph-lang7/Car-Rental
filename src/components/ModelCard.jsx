@@ -1,6 +1,6 @@
 import { TiStar } from "react-icons/ti";
 import { FaCarSide } from "react-icons/fa";
-
+import PropTypes from "prop-types";
 const ModelCard = ({
   image,
   alt,
@@ -66,6 +66,17 @@ const ModelCard = ({
       </div>
     </div>
   );
+};
+
+ModelCard.propTypes = {
+  image: PropTypes.object,
+  alt: PropTypes.string,
+  price: PropTypes.string,
+  model: PropTypes.string,
+  brand: PropTypes.string,
+  transmission: PropTypes.string,
+  doors: PropTypes.string,
+  fuel: PropTypes.string,
 };
 
 export default ModelCard;

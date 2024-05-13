@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { PiCarSimpleFill } from "react-icons/pi";
+import { useState } from "react";
+import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaPray, FaRegCalendarAlt } from "react-icons/fa";
+import { PiCarSimpleFill } from "react-icons/pi";
 import Container from "./Container";
 import bentley from "/fleet/bentley.jpg";
 import bmw from "/fleet/bmw.jpg";
@@ -17,10 +17,9 @@ const BookCar = () => {
     pickUpDate: "",
     dropOffDate: "",
   });
-  // const [scrollPosition, setScrollPosition] = useState(0);
   const [errorMessage, setErrorMessage] = useState(false);
   const [successMessage, setSuccessMessage] = useState(false);
-  const [search, setSearch] = useState(false);
+  const [, setSearch] = useState(false);
   const carTypes = [
     "Subaru WRX",
     "Bentley Continental",
@@ -37,17 +36,7 @@ const BookCar = () => {
     "Santa Rosa",
   ];
 
-  const [selectedCar, setSelectedCar] = useState("");
-
-  // const manageModal = () => {
-  //   setScrollPosition(window.scrollY);
-  //   document.body.style.position = "fixed";
-  //   document.body.style.top = `-${scrollPosition}px`;
-  // };
-
-  // useEffect(() => {
-  //   setScrollPosition(window.scrollY);
-  // }, [setScrollPosition]);
+  const [, setSelectedCar] = useState("");
 
   const handleChange = (e) => {
     const input = e.target.name;
@@ -56,14 +45,6 @@ const BookCar = () => {
       ...formData,
       [input]: value,
     });
-  };
-
-  const handleClose = () => {
-    setSearch(!search);
-    // document.body.style.position = "";
-    // document.body.style.top = "";
-
-    // window.scrollTo(0, scrollPosition);
   };
 
   const handleSubmit = (e) => {
@@ -92,7 +73,6 @@ const BookCar = () => {
       pickUpDate: "",
       dropOffDate: "",
     });
-    console.log(formData);
     setSuccessMessage(true);
     setTimeout(() => {
       setSuccessMessage(false);

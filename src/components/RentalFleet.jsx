@@ -130,19 +130,17 @@ const RentalFleet = () => {
           <div className="flex flex-col items-center h-full w-full  gap-3 mt-7 xl:flex-row justify-between">
             <div className="flex flex-col items-center gap-2 w-full xl:max-w-[400px]">
               {carTypes.map((carType, index) => (
-                <>
-                  <button
-                    key={carType}
-                    onClick={() => handleClick(index)}
-                    className={`${
-                      selectedButton === index
-                        ? "bg-[#FA4226] text-white"
-                        : "bg-slate-200"
-                    } w-full h-auto p-2 font-bold hover:bg-[#FA4226] hover:text-white transition-colors duration-300`}
-                  >
-                    {carType}
-                  </button>
-                </>
+                <button
+                  key={carType}
+                  onClick={() => handleClick(index)}
+                  className={`${
+                    selectedButton === index
+                      ? "bg-[#FA4226] text-white"
+                      : "bg-slate-200"
+                  } w-full h-auto p-2 font-bold hover:bg-[#FA4226] hover:text-white transition-colors duration-300`}
+                >
+                  {carType}
+                </button>
               ))}
             </div>
             <div className=" flex justify-center lg:max-w-[800px]">

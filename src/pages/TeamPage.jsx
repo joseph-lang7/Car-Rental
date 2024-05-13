@@ -3,7 +3,7 @@ import Contact from "../components/Contact";
 import Container from "../components/Container";
 import ProfileCard from "../components/ProfileCard";
 import salesman from "/staff/salesman.jpg";
-import cardetailist from "/staff/cardetailist.jpg";
+import carDetailist from "/staff/cardetailist.jpg";
 import ceo from "/staff/ceo.jpg";
 import manager from "/staff/manager.jpg";
 import mechanic from "/staff/mechanic.jpg";
@@ -25,7 +25,7 @@ const TeamPage = () => {
             <ProfileCard
               name="David Anderson"
               role="Car Detailist"
-              photo={cardetailist}
+              photo={carDetailist}
             />
             <ProfileCard
               name="Sophia Hernandez"
