@@ -1,4 +1,4 @@
-import AboutCompany from "../components/AboutCompany";
+import AboutCompany from "../pageComponents/about/AboutCompany";
 import Hero2 from "../components/Hero2";
 import RentingProcess from "../components/RentingProcess";
 import Contact from "../components/Contact";

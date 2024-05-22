@@ -1,5 +1,5 @@
 import aboutCompany from "/aboutCompany.jpg";
-import Container from "./Container";
+import Container from "../../components/Container";
 import { BsCarFrontFill } from "react-icons/bs";
 import { FaBuildingCircleCheck } from "react-icons/fa6";
 import { GiAutoRepair } from "react-icons/gi";
