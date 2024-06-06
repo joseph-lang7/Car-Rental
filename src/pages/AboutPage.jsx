@@ -1,7 +1,5 @@
-import AboutCompany from "../pageComponents/about/AboutCompany";
-import Hero2 from "../components/Hero2";
-import RentingProcess from "../components/RentingProcess";
-import Contact from "../components/Contact";
+import { Hero2, RentingProcess, Contact } from "../components";
+import { AboutCompany } from "../pageComponents/aboutPage";
 const AboutPage = () => {
   return (
     <div className="flex flex-col gap-[150px]">

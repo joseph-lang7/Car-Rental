@@ -1,8 +1,5 @@
-import Container from "../components/Container";
-import Hero2 from "../components/Hero2";
-import Contact from "../components/Contact";
-import Info from "../pageComponents/contact/Info";
-import Form from "../pageComponents/contact/Form";
+import { Contact, Hero2, Container } from "../components";
+import { Form, Info } from "../pageComponents/contactPage";
 
 const ContactPage = () => {
   return (
