@@ -9,7 +9,7 @@ Car Rental
      style="float: left; margin-right: 10px;" />
 </div>
 <p style="text-align:center; color:white; margin-top:350px;" >
-A user interface application that allows users to rent, search, compare, and reserve cars.
+A front-end application that allows users to rent, search, compare, and reserve cars.
 </p>
 <a style="text-decoration:underline;" href="https://carrental-jl.netlify.app/">Live site</a>
 <h2 style="color:white;">
