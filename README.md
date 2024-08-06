@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
+    <img src="https://skillicons.dev/icons?i=react,tailwind,vite,javascript" />
 
 <h1 align="center" style="color:white;">
 Car Rental
